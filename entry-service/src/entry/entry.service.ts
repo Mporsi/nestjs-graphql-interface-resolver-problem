@@ -4,7 +4,7 @@ import { UpdateEntryInput } from './dto/update-entry.input';
 
 @Injectable()
 export class EntryService {
-  create(createEntryInput: CreateEntryInput) {
+  create(_createEntryInput: CreateEntryInput) {
     return 'This action adds a new entry';
   }
 
@@ -16,7 +16,7 @@ export class EntryService {
     return `This action returns a #${id} entry`;
   }
 
-  update(id: number, updateEntryInput: UpdateEntryInput) {
+  update(id: number, _updateEntryInput: UpdateEntryInput) {
     return `This action updates a #${id} entry`;
   }
 

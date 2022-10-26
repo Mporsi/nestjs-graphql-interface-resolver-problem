@@ -4,7 +4,7 @@ import { UpdateVoteInput } from './dto/update-vote.input';
 
 @Injectable()
 export class VoteService {
-  create(createVoteInput: CreateVoteInput) {
+  create(_createVoteInput: CreateVoteInput) {
     return 'This action adds a new vote';
   }
 
@@ -16,7 +16,7 @@ export class VoteService {
     return `This action returns a #${id} vote`;
   }
 
-  update(id: number, updateVoteInput: UpdateVoteInput) {
+  update(id: number, _updateVoteInput: UpdateVoteInput) {
     return `This action updates a #${id} vote`;
   }
 
